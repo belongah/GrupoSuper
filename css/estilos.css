@@ -1,0 +1,121 @@
+html{
+	font-family: "Arial";
+	font-size: 14px;
+}
+*{
+	margin:0;
+	padding:0; 
+}
+
+#content{
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header{
+	background-color: white;
+	height: 80px;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	color: navy;
+	margin-bottom: 0.25em;
+}
+
+p {
+	justify-content: justify;
+}
+
+#logo {
+	height: 70px;
+}
+
+#navPrincipal{
+	background: #023699;
+	padding: 5px;
+	text-align: right;
+}
+
+#navPrincipal ul{
+	list-style-type: none;
+	margin-left: 0;
+}
+
+#navPrincipal ul li{
+	display: inline-block;
+}
+
+#navPrincipal ul li a{
+	display: block;
+	padding: 0.9em;
+	background: #ff6600;
+	font-weight: bold;
+	color: #023699;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+#navPrincipal ul li a:hover {
+	background: white;
+	color:#ff6600;
+	}
+
+
+#principal{}
+
+#principal #contenido{
+	background: white;
+	padding: 10px;
+	width: 70%;
+	box-sizing:border-box; 
+	float: left;
+	}
+
+	#contenido .noticias{
+		float: left;
+		width: 50%;
+		background: lightgrey;
+		padding: 0.6em;
+		box-sizing:inherit;
+		margin-top: 10px;
+	
+	}
+	.destacado{
+		background: #ff6600;
+		padding: 0.6em;
+		box-sizing:inherit;
+		margin-top: 0.6em;
+	}
+
+	.limpiaFloats{
+		clear: both;
+	}
+	.boxbanner{
+		width: 300px;
+	}
+#principal aside{
+	margin-top: 20px;
+	background: #666666;
+	width: 30%;
+	height: 442px;
+	float: right;
+	text-align: center;
+	}
+
+#footer{
+	clear: both;
+	background: black;
+	height: 40px;
+	text-align: center;
+	
+}
+
+span {
+	display: block;
+	padding-top: 10px;
+	color: white;
+}
